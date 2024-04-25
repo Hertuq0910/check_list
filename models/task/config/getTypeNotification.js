@@ -1,4 +1,4 @@
-const { getCollection } = require('../../../models/database/connection');
+const { getCollection } = require('../../database/connection');
 
 async function getTypeNotificationByIdentification(identification) {
     try {

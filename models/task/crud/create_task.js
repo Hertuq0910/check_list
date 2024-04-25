@@ -1,4 +1,4 @@
-const { getCollection } = require('../../../models/database/connection');
+const { getCollection } = require('../../database/connection');
 const { getNextIdentification } = require('../config/getNextIdentification');
 const { getTypeNotificationByIdentification } = require('../config/getTypeNotification');
 
@@ -29,7 +29,6 @@ async function createCheck(noteData) {
     const result = await checksCollection.insertOne(newNoteData);
     return result.ops;
   } catch (error) {
-    console.error('Error al crear la nota:', error);
     throw error;
   }
 }
