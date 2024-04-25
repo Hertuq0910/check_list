@@ -13,10 +13,10 @@ Este proyecto consiste en una aplicación web simple para gestionar listas de ta
 
 ## Tecnologías Utilizadas
 - **Frontend:** HTML, CSS, JavaScript .
-- **Backend:** Node.js con Express.js  para manejar las operaciones de la base de datos y enviar correos electrónicos. [text](https://www.npmjs.com/)
-- **Base de Datos:** MongoDB como sistema de gestión de bases de datos no relacional. [text](https://www.mongodb.com/)
-- **Servicio de Correo Electrónico:** API de servicio de correo electrónico como SendGrid. [text](https://sendgrid.com/en-us)
-- **Documentación Servicios Web RESTful:** API Swagger. [text](https://swagger.io/)
+- **Backend:** Node.js con Express.js  para manejar las operaciones de la base de datos y enviar correos electrónicos. [NPM](https://www.npmjs.com/)
+- **Base de Datos:** MongoDB como sistema de gestión de bases de datos no relacional. [Mongo](https://www.mongodb.com/)
+- **Servicio de Correo Electrónico:** API de servicio de correo electrónico como SendGrid. [Sendgrid](https://sendgrid.com/en-us)
+- **Documentación Servicios Web RESTful:** API Swagger. [Swagger](https://swagger.io/)
 
 ## Contribuciones
 ¡Estamos abiertos a contribuciones de la comunidad! Si deseas participar en el desarrollo de esta aplicación, por favor consulta nuestras pautas de contribución en el repositorio de GitHub.
